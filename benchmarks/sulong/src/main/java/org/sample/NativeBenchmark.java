@@ -75,7 +75,7 @@ public class NativeBenchmark {
         instance.nativeWithSomeWork(100);
     }
      
-/*    @Benchmark
+    @Benchmark
     @Fork(value = 1)
     @Warmup(iterations = 2)
     @OutputTimeUnit(TimeUnit.MICROSECONDS)
@@ -89,7 +89,7 @@ public class NativeBenchmark {
     @OutputTimeUnit(TimeUnit.MICROSECONDS)
     public void testSulongPolyglotCall() {
         member.executeVoid();     
-    }  */    
+    }    
 
   
     @Benchmark
