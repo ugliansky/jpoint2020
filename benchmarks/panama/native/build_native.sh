@@ -1,0 +1,1 @@
+gcc -O1 -Wall -fPIC -o libpanamatest.so -shared panamatest.c
